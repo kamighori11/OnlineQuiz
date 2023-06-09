@@ -39,7 +39,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/app_name"
+                android:text="Sign UP"
                 android:textSize="28dp"
                 android:textFontWeight="1200"
                 android:padding="30dp"
@@ -48,12 +48,6 @@
                 />
 
         </LinearLayout>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Sign Up"
-            android:textSize="24dp"
-            android:textAlignment="center" />
 
         <EditText
             android:id="@+id/name"
@@ -77,6 +71,15 @@
 
         <EditText
             android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="20dp"
+            android:hint="*******"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/repass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
